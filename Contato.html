@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" inicial-scale="1" />
+
+        <link rel="stylesheet" type="text/css" href="Estilos/CSS_padrao.css" />
+        <link id="CSS_tema" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+        <script src="Scripts/jscript.js"></script>
+
+        <title>Jow Costa</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="title">
+                Jow Costa
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Biografia.html">Biografia</a></li>
+                    <li><a href="Galeria.html">Galeria</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <h1>Contato</h1>
+
+            <div class="content">
+                <p id="contato">
+                    Para mais informações, deixe seus dados e entraremos em contato:
+                </p>
+
+                <form method="GET">
+    
+                    <div class="campo_info">
+                        <label for="nome">Nome:</label><br />
+                        <input type="text" id="nome" name="nome" maxlength="38" placeholder="Nome" required />
+                    </div>
+    
+                    <div class="campo_info">
+                        <label for="email">E-mail:</label><br />
+                        <input type="email" id="email" name="email" maxlength="38" placeholder="E-mail" required />
+                    </div>
+    
+                    <div class="campo_info">
+                        <label for="text">Telefone:</label><br />
+                        <input type="text" id="fone" name="fone" maxlength="17" placeholder="Telefone" required />
+                    </div>
+    
+                    <div class="campo_info">
+                        <input type="submit" value="Enviar" class="botao" />
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

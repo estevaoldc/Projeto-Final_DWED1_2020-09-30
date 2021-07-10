@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" inicial-scale="1" />
+
+        <link rel="stylesheet" type="text/css" href="Estilos/CSS_padrao.css" />
+        <link id="CSS_tema" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+        <script src="Scripts/jscript.js"></script>
+
+        <title>Jow Costa</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="title">
+                Jow Costa
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Biografia.html">Biografia</a></li>
+                    <li><a href="Galeria.html">Galeria</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="container" id="first_page">
+                <h1>Portifólio</h1>
+                <img src="Imagens/Imagem_0.jpeg" alt="Jow Costa - Foto de capa" />
+            </div>
+        </main>
+
+        <div id="div_theme">
+            <label for="theme">Tema</label>
+                <select id="theme_switcher" onchange="func_theme_switcher(this.value)">
+                    <option value="aqua" selected>Ciano</option>
+                    <option value="lime">Limão</option>
+                    <option value="vermelho">Vermelho</option>
+                    <option value="rosa">Rosa</option>
+                </select>
+        </div>
+
+        <footer>
+            <div>
+                Nome: Estevão Luiz Duarte da Costa<br />
+                Matrícula: GU3011771
+            </div>
+        </footer>
+    </body>
+</html>
