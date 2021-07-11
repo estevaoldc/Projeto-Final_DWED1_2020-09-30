@@ -1,0 +1,8 @@
+html {
+    background: linear-gradient(to bottom, #FFFAFA, #fc0fc0);
+    background-position-y: 100px;
+}
+
+header {
+    color: #e427b4;
+}
